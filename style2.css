@@ -1,0 +1,60 @@
+.open-sans-easy{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav h3 {
+  
+   width: 121px;
+   height: 61px;
+   font-family: Open Sans;
+    font-style: ExtraBold;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hrclr{
+    color: #FD6E0A;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 50px;
+    
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.btn{
+
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #ffffff
+}

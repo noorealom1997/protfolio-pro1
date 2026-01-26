@@ -1,0 +1,79 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header ar kaj */
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav bar ar kaj */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 130px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.rcoller{
+    color: #FD6E0A;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #ffffff
+}
+/* banner ar kaj  */
+.benner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 130px;
+}
+.benner-content{
+    max-width: 580px;
+}
+.bannerH4{
+    
+    font-weight: 600;
+    font-size: 43px;
+}
+.bannerMainh1{
+    font-weight: bold;
+    font-size: 80px;
+}
+.banner-pragarp{
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+}
