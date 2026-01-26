@@ -1,60 +1,111 @@
-.open-sans-easy{
+.open-sans-aa {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-
-nav h3 {
-  
-   width: 121px;
-   height: 61px;
-   font-family: Open Sans;
-    font-style: ExtraBold;
+h1{
     font-size: 45px;
     font-weight: 800;
-    line-height: 61px;
-    letter-spacing: 0%;
-    text-align: left;
 }
-.hrclr{
+.navRclr{
     color: #FD6E0A;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 130px;
+
 }
 nav ul li{
     list-style: none;
-    text-decoration: none;
-    margin-right: 50px;
-    
-    
+    margin: 15px 30px;
 }
-nav ul li a {
+nav li a{
     text-decoration: none;
-    font-size: 20px;
 }
 .dark2{
     color: #474747;
 }
-nav ul{
+ul{
+    align-items: center;
     display: flex;
     font-size: 20px;
-    text-align: center;
-    align-items: center;
-}
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 100px;
+    font-weight: 400;
 }
 .btn{
-
     border-radius: 5px;
-    padding: 18px 35px;
+    width: 150px;
+    border: none;
+    height: 64px;
     font-size: 20px;
     font-weight: bold;
-    width: 150px;
-    height: 64px;
     background-color: #FD6E0A;
-    color: #ffffff
+    color: white;
+}
+/* heder ar kaj */
+.headerm{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.header{
+    
+}
+.heder-content{
+    display: flex;
+    margin: 0 35px 0 130px;
+
+
+}
+.hederH4{
+    font-size: 45px;
+    font-weight: 600; 
+}
+.hedertitle{
+    font-size: 85px;
+    font-weight: bold;
+}
+.hederperagrap{
+    font-size: 18px;
+    font-weight: 400;
+}
+.imagepicsize{
+    width: 584px;
+    height: 676px;
+}
+/* About ar kaj */
+.abut-main-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-about{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about-pragra{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-ptitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-pdisc{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757575;
 }
