@@ -98,6 +98,7 @@ nav ul{
     text-align: center;
     margin-top: 180px;
     border: 1px solid black;
+    margin: 113px 113px;
 
 }
 main{
@@ -117,4 +118,89 @@ main{
 .about-main-item{
     display: flex;
     justify-content: space-around;
+}
+/* skril ar jonno */
+.text-center{
+    text-align: center;
+}
+.skeil-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+.skril-Pdiciption{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.main-skril{
+    display: flex;
+    margin-top: 50px;
+
+    /* gap: 24px; */
+    /* padding: 30px 35px 40px 45px; */
+}
+.skril-title-main2{
+    padding: 30px 33px ;
+    
+
+}
+.skril{
+    margin-top: 100px;
+    margin: 50px 50px;
+    margin-bottom: 100px;
+}
+/* sumary ar kaj */
+.sumary-top-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.sumary-top2title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.sumary-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #474747;
+}
+.sumary-pragrap{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    /* width: 511px;
+    height: 175px; */
+}
+.sumary-main22{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.main-summary{
+    display: flex;
+    gap: 24px;
+}
+.dcvbtn{
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer{
+    padding: 130Px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colam{
+    width: 50%;
+}
+.namef, footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    border-color: wheat;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
