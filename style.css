@@ -46,10 +46,14 @@ nav ul{
     font-size: 20px;
     font-weight: bold;
     border: none;
-    width: 200px;
-    height: 64px;
+    /* width: 250px;
+    height: 64px; */
     background-color: #FD6E0A;
     color: #ffffff
+}
+.btn2{
+    background-color: transparent;
+    color: #FD6E0A
 }
 /* banner ar kaj  */
 .benner{
@@ -64,14 +68,18 @@ nav ul{
     
     font-weight: 600;
     font-size: 43px;
+    margin-bottom: 5px;
 }
 .bannerMainh1{
     font-weight: bold;
     font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 .banner-pragarp{
     font-weight: 400;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 .banner-profile-pic{
     width: 584px;
